@@ -22,9 +22,9 @@ export interface ITodo {
 }
  function TodoTable({ todos }: { todos: ITodo[] }) {
   return (
-    <div className=" ml-5 ">
+    <div className=" translate-x-5 max-w-full ">
       {" "}
-      <Table className="container mx-auto">
+      <Table className="container ">
         <TableCaption>A list of your recent todos.</TableCaption>
         <TableHeader>
           <TableRow>
